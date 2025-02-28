@@ -35,26 +35,24 @@ Avaliação: Teste dos modelos com métricas de desempenho.
 
 Python
 TensorFlow / Keras
-PyTorch
 NumPy, Pandas, Matplotlib
 
 📌 Repositório no Kaggle
 
-O código dos moodelos sem usa Data Augmentation :
+Modelos sem Data Augmentation
 
-[Efficient](https://www.kaggle.com/code/reidnersantos/efficientnet-figshare-braintumor)
+🔗[Efficient](https://www.kaggle.com/code/reidnersantos/efficientnet-figshare-braintumor)
 
-[Swin Transformer](https://www.kaggle.com/code/reidnersantos/swin-transformer-figshare-braintumor-fork)
+🔗[Swin Transformer](https://www.kaggle.com/code/reidnersantos/swin-transformer-figshare-braintumor-fork)
 
-[ConvNeXt](https://www.kaggle.com/code/reidnersantos/convnext-figshare-braintumor)
+🔗[ConvNeXt](https://www.kaggle.com/code/reidnersantos/convnext-figshare-braintumor)
 
+Modelos com Data Augmentation
 
-O código dos moodelos com o uso Data Augmentation :
+🔗[Efficienet](https://www.kaggle.com/code/jackssonyuri/efficientnet-figshare-braintumor-with-aug)
 
-[Efficienet](https://www.kaggle.com/code/jackssonyuri/efficientnet-figshare-braintumor-with-aug)
+🔗[Swin Transformer](https://www.kaggle.com/code/jackssonyuri/swin-transformer-figshare-braintumor-with-aug-1)
 
-[Swin Transformer](https://www.kaggle.com/code/jackssonyuri/swin-transformer-figshare-braintumor-with-aug-1)
-
-[ConvNeXt](https://www.kaggle.com/code/jackssonyuri/convnext-figshare-braintumor-with-aug)
+🔗[ConvNeXt](https://www.kaggle.com/code/jackssonyuri/convnext-figshare-braintumor-with-aug)
 
 
