@@ -20,8 +20,9 @@ EfficientNet-B0	93%
 📂 Dataset
 O dataset utilizado neste projeto pode ser acessado no Kaggle:
 
-🔗Link para o dataset de origem [(https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)]
-🔗Link para o dataset no Kaggle [(https://www.kaggle.com/code/reidnersantos/convnext-figshare-braintumor/input)]
+🔗[Dataset de origem (Figshare)](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)
+
+🔗[Link para o dataset no Kaggle](https://www.kaggle.com/code/reidnersantos/convnext-figshare-braintumor/input)
 
 
 📜 Metodologia
@@ -41,18 +42,19 @@ NumPy, Pandas, Matplotlib
 
 O código dos moodelos sem usa Data Augmentation :
 
-Efficient [(https://www.kaggle.com/code/reidnersantos/efficientnet-figshare-braintumor)]
-Swin Transformer [(https://www.kaggle.com/code/reidnersantos/swin-transformer-figshare-braintumor-fork)]
-ConvNeXt [(https://www.kaggle.com/code/reidnersantos/convnext-figshare-braintumor)]
+[Efficient](https://www.kaggle.com/code/reidnersantos/efficientnet-figshare-braintumor)
+
+[Swin Transformer](https://www.kaggle.com/code/reidnersantos/swin-transformer-figshare-braintumor-fork)
+
+[ConvNeXt](https://www.kaggle.com/code/reidnersantos/convnext-figshare-braintumor)
 
 
 O código dos moodelos com o uso Data Augmentation :
 
-ConvNeXt [(https://www.kaggle.com/code/jackssonyuri/convnext-figshare-braintumor-with-aug)]
+[Efficienet](https://www.kaggle.com/code/jackssonyuri/efficientnet-figshare-braintumor-with-aug)
 
-Swin Transformer [(https://www.kaggle.com/code/jackssonyuri/swin-transformer-figshare-braintumor-with-aug-1)]
+[Swin Transformer](https://www.kaggle.com/code/jackssonyuri/swin-transformer-figshare-braintumor-with-aug-1)
 
-Efficienet [(https://www.kaggle.com/code/jackssonyuri/efficientnet-figshare-braintumor-with-aug)]
-
+[ConvNeXt](https://www.kaggle.com/code/jackssonyuri/convnext-figshare-braintumor-with-aug)
 
 
