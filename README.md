@@ -76,15 +76,13 @@ Para reproduzir os resultados, certifique-se de ativar o acelerador **GPU P100**
 
 A análise comparativa demonstrou que redes neurais baseadas em Transformers são extremamente poderosas na visão computacional médica. O modelo **Swin Transformer foi o grande destaque**, provando ser o mais eficaz para a classificação dos três tipos de tumores cerebrais neste dataset.
 
-| Modelo | F1-Score Médio | AUC (Pituitário) | Destaque e Comportamento |Custo Computacional
-| --- | --- | --- | --- | --- |
-| 🏆 **Swin Transformer** | **~0.97** | **1.00** | Melhor desempenho geral. Beirou a perfeição nas métricas, apresentando a menor taxa de erro na matriz de  confusão, inclusive para a classe mais desafiadora (glioma). Data Augmentation trouxe maior estabilidade às curvas de perda. | Alto |
-| 🥈 **ConvNeXt** | 0.88 | 1.00 | Sem Data Augmentation, apresentou dificuldade com a classe meningioma. A aplicação do aumento de dados foi crucial, reduzindo a confusão entre classes e subindo o AUC do meningioma em +0.01. | Médio |
-| 🥉 **EfficientNet-B0** | 0.88 | 1.00 | Resultados sólidos, mas com maior dificuldade em encontrar o equilíbrio ideal entre precisão e recall. Data Augmentation foi essencial para mitigar a confusão entre meningioma e glioma. | Baixo | 
+| Modelo | Acurácia | Destaque e Comportamento |Custo Computacional |
+| --- | --- | --- | --- | 
+| 🏆 **Swin Transformer** | **0.97** | **Melhor desempenho geral. Beirou a perfeição nas métricas, apresentando a menor taxa de erro na matriz de  confusão, inclusive para a classe mais desafiadora (glioma). Data Augmentation trouxe maior estabilidade às curvas de perda.** | **Alto** |
+| 🥈 **ConvNeXt** | 0.94 | Sem Data Augmentation, apresentou dificuldade com a classe meningioma. A aplicação do aumento de dados foi crucial, reduzindo a confusão entre classes e subindo o AUC do meningioma em +0.01. | Médio |
+| 🥉 **EfficientNet-B0** | 0.93 | Resultados sólidos, mas com maior dificuldade em encontrar o equilíbrio ideal entre precisão e recall. Data Augmentation foi essencial para mitigar a confusão entre meningioma e glioma. | Baixo | 
 
-### Destaque Geral (Curva ROC)
 
-Todos os três modelos alcançaram um **AUC de 1.0 para a classe de tumor pituitário**, indicando que essa classe é de fácil distinção arquitetural. O diferencial real e a prova de fogo entre os modelos se deu no acerto das classes mais complexas (glioma e meningioma), onde apenas o Swin Transformer demonstrou superioridade absoluta.
 
 ---
 
